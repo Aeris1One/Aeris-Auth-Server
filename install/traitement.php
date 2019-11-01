@@ -120,6 +120,7 @@ exit('Impossible d\'écrire dans le fichier : <strong>'. $fichier .'</strong>.'.
 
 // tout s'est bien passé
 echo 'Fichier de configuration : '. OK;
+echo 'Veuillez patienter...'
 fclose($ouvrir); // on ferme le fichier
 	
 
